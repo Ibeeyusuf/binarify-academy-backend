@@ -1,4 +1,4 @@
-import User from '../models/User.js';
+import User from '../models/user.js';
 import Application from '../models/Application.js';
 
 // Get all users (admin only)

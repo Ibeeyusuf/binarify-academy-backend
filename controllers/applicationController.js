@@ -1,5 +1,5 @@
 import Application from '../models/Application.js';
-import User from '../models/User.js';
+import User from '../models/user.js';
 import { validationResult } from 'express-validator';
 
 // Submit new application
@@ -256,7 +256,7 @@ export const updateApplicationStatus = async (req, res) => {
   } catch (error) {
     res.status(500).json({
       success: false,
-      message: 'Err updating application status'
+      message: 'Error updating application status'
     });
   }
 };

@@ -74,7 +74,7 @@ const corsOptions = {
     
     const allowedOrigins = process.env.FRONTEND_URL 
       ? process.env.FRONTEND_URL.split(',') 
-      : ['http://localhost:3000', 'http://localhost:3000', 'http://localhost:3001'];
+      : ['http://localhost:3000', 'http://localhost:3000', 'http://localhost:3001',"*"];
     
     // Check if origin is in allowed origins or if we're in development
     if (allowedOrigins.includes(origin) || process.env.NODE_ENV === 'development') {

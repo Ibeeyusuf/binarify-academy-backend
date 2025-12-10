@@ -151,3 +151,5 @@
 2025-12-09T14:45:05.558Z - GET /api/payments/history?page=1&limit=10 - Status: 304 - Duration: 425ms - IP: ::1 - User: anonymous
 2025-12-09T14:51:41.583Z - POST /api/auth/login - Status: 200 - Duration: 954ms - IP: ::1 - User: anonymous
 2025-12-09T14:51:41.814Z - GET /api/dashboard/stats - Status: 401 - Duration: 2ms - IP: ::1 - User: anonymous
+2025-12-10T12:09:23.681Z - POST /api/auth/login - Status: 200 - Duration: 2938ms - IP: ::ffff:127.0.0.1 - User: anonymous
+2025-12-10T12:10:09.962Z - POST /api/auth/login - Status: 200 - Duration: 1952ms - IP: ::ffff:127.0.0.1 - User: anonymous

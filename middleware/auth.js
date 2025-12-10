@@ -1,5 +1,5 @@
 import jwt from 'jsonwebtoken';
-import User from '../models/user.js'; // You'll need to create a User model
+import User from '../models/User.js'; // You'll need to create a User model
 
 // Authentication middleware
 export const authenticate = async (req, res, next) => {
@@ -119,4 +119,3 @@ export const rateLimitByUser = (windowMs = 15 * 60 * 1000, max = 100) => {
     next();
   };
 };
-
